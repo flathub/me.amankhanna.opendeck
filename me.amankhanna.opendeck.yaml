@@ -24,8 +24,8 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/ninjadev64/OpenDeck/releases/download/v2.2.1/opendeck_2.2.1_amd64.deb
-        sha256: d88e6d4e92a2bd1c07ec6c6795378ea794adb361f38060733fea04e797448119
+        url: https://github.com/ninjadev64/OpenDeck/releases/download/v2.3.0/opendeck_2.3.0_amd64.deb
+        sha256: 8878a4acbcd86fa47076f2972f0cd7d28426c67301361650c4822a3fa4949dc3
         only-arches: [ x86_64 ]
     build-commands:
       - ar -x *.deb
@@ -34,3 +34,4 @@ modules:
       - install -Dm644 usr/share/icons/hicolor/512x512/apps/opendeck.png /app/share/icons/hicolor/512x512/apps/opendeck.png
       - install -Dm644 usr/share/applications/opendeck.desktop /app/share/applications/opendeck.desktop
       - install -Dm644 usr/share/metainfo/opendeck.metainfo.xml /app/share/metainfo/opendeck.metainfo.xml
+      - cp -r usr/lib/opendeck/ /app/lib/opendeck/
