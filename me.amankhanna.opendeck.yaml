@@ -24,8 +24,8 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/ninjadev64/OpenDeck/releases/download/v2.4.3/opendeck_2.4.3_amd64.deb
-        sha256: a017656405d7f907621a2a9adb6fa753e25a0dd46b210f4ed57506260c08337d
+        url: https://github.com/ninjadev64/OpenDeck/releases/download/v2.4.4/opendeck_2.4.4_amd64.deb
+        sha256: 9fce8676d06d50604ccc7bf63553b4cd388488dbc392fda7fcbf0860e0b8ca62
         only-arches: [ x86_64 ]
     build-commands:
       - ar -x *.deb
