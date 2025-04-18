@@ -17,6 +17,7 @@ finish-args:
   - --share=network
   # Host command access is required to invoke Wine and Node, but only if the user has and wants to have them installed.
   - --talk-name=org.freedesktop.Flatpak
+  - --talk-name=org.mpris.MediaPlayer2.*
 
 modules:
   - shared-modules/libayatana-appindicator/libayatana-appindicator-gtk3.json
