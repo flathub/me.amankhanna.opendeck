@@ -18,6 +18,8 @@ finish-args:
   - --talk-name=org.freedesktop.Flatpak # Host command access is required to invoke Wine and Node, but only if the user has and wants to have them installed.
   - --talk-name=org.kde.StatusNotifierWatcher
   - --filesystem=xdg-run/tray-icon:create
+  - --talk-name=org.opendeck.SingleInstance
+  - --own-name=org.opendeck.SingleInstance
   - --talk-name=org.mpris.MediaPlayer2.*
 
 modules:
