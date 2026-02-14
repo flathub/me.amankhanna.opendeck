@@ -26,12 +26,12 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/nekename/OpenDeck/releases/download/v2.9.0/opendeck_2.9.0_amd64.deb
-        sha256: a733ccc1510ea57faefbf32850e83f96863952deeb4be749b5f00c671813689b
+        url: https://github.com/nekename/OpenDeck/releases/download/v2.9.1/opendeck_2.9.1_amd64.deb
+        sha256: 109ecfd3969dfbaf169bfae8692552ea45a9ddcdaa7fc89f8cd5cabf0b5dbec6
         only-arches: [ x86_64 ]
       - type: file
-        url: https://github.com/nekename/OpenDeck/releases/download/v2.9.0/opendeck_2.9.0_arm64.deb
-        sha256: 1107295ac2edc093e377885dfbfa74ffe8a61060165b8431e1a6230be9bdfdf1
+        url: https://github.com/nekename/OpenDeck/releases/download/v2.9.1/opendeck_2.9.1_arm64.deb
+        sha256: fdfe7731938f6e27183118da7d18eb2a3fc6c3d57cc94117f0904681acd04e46
         only-arches: [ aarch64 ]
     build-commands:
       - ar -x *.deb
