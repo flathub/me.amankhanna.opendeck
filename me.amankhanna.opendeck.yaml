@@ -1,7 +1,7 @@
 id: me.amankhanna.opendeck
 
 runtime: org.gnome.Platform
-runtime-version: "49"
+runtime-version: "50"
 sdk: org.gnome.Sdk
 
 rename-icon: opendeck
@@ -26,12 +26,12 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/nekename/OpenDeck/releases/download/v2.12.0/opendeck_2.12.0_amd64.deb
-        sha256: a7e342477433517bbc3bf038a9d1571c62b19aba8e93eccb5550a823b8e184a1
+        url: https://github.com/nekename/OpenDeck/releases/download/v2.12.1/opendeck_2.12.1_amd64.deb
+        sha256: 672b74b50bacad475f57c7a15e71899754171e1c58d5a743408b38e9497dddae
         only-arches: [ x86_64 ]
       - type: file
-        url: https://github.com/nekename/OpenDeck/releases/download/v2.12.0/opendeck_2.12.0_arm64.deb
-        sha256: f82b7f9d5284965a0054a9270dc6342138e3052c04e44b0d3adb755acafb2682
+        url: https://github.com/nekename/OpenDeck/releases/download/v2.12.1/opendeck_2.12.1_arm64.deb
+        sha256: 4d4e1ba9eecc41d3ceec3828db7f988b08bf1d9f59489b7b057fe3b28a0f3f2f
         only-arches: [ aarch64 ]
     build-commands:
       - ar -x *.deb
